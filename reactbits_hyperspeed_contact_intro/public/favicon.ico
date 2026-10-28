@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edd0a3"/>
+      <stop offset="50%" stop-color="#dab47c"/>
+      <stop offset="100%" stop-color="#c49a60"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141923"/>
+      <stop offset="100%" stop-color="#08090c"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="rgba(218,180,124,0.3)" stroke-width="1.5"/>
+  <!-- Isometric Architectural Studio Prism -->
+  <path d="M32 14 L48 23 L32 32 L16 23 Z" fill="url(#goldGrad)" opacity="0.95"/>
+  <path d="M16 23 L32 32 L32 50 L16 41 Z" fill="#c49a60" opacity="0.8"/>
+  <path d="M48 23 L32 32 L32 50 L48 41 Z" fill="#dab47c" opacity="0.65"/>
+  <circle cx="32" cy="32" r="3" fill="#ffffff" opacity="0.9"/>
+</svg>

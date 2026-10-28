@@ -1,0 +1,26 @@
+{
+  "name": "reactbits-hyperspeed-intro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "setup:hyperspeed": "npx shadcn@latest add @react-bits/Hyperspeed-JS-CSS",
+    "setup:truefocus": "npx shadcn@latest add @react-bits/TrueFocus-JS-CSS"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "motion": "latest",
+    "ogl": "^1.0.11",
+    "react": "latest",
+    "react-dom": "latest",
+    "three": "^0.180.0",
+    "vgpu": "^0.3.1",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "reactbits-hyperspeed-contact-intro-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix reactbits_hyperspeed_contact_intro run dev",
+    "build": "npm --prefix reactbits_hyperspeed_contact_intro run build",
+    "preview": "npm --prefix reactbits_hyperspeed_contact_intro run preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
